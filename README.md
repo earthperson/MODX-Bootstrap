@@ -1,4 +1,4 @@
-MODx-Bootstrap
+MODX-Bootstrap
 ==============
 
 [Extra][1] for [MODX Revo][2] for starting with [Twitter Bootstrap][3] - open source front-end framework. [This extra][1] is especially useful for [MODX Revo][2] beginners and/or for the blank [MODX Revo][2] installation with [Twitter Bootstrap][3] framework in the future.
