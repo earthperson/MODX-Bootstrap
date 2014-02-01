@@ -1,8 +1,9 @@
 --------------------
 Extra: Bootstrap
 --------------------
-Version: 1.0.0-beta-1
+Version: 1.0.1-beta-1
 Author: Dmitry Ponomarev (email: ponomarev.dev@gmail.com, website: http://earthperson.info)
+URL: http://modx.com/extras/package/bootstrap
 License: The MIT License (MIT)
 
 Extra for starting with Twitter Bootstrap - open source front-end framework.

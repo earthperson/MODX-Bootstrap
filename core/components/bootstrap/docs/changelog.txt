@@ -1,4 +1,14 @@
 Changelog file for Bootstrap component.
+
+Bootstrap 1.0.1-beta-1
+====================================
+- Updated template BootstrapTemplate
+- Updated chunk Header
+- Added [[++site_url]] instead of "/" in the chunk Navbar
+- Updated bootstrap/dist to v3.1.0
+- Updated bootstrap/vendor/html5shiv.js to v3.7.0
+- Updated bootstrap/vendor/respond.min.js to v1.4.2
+- Updated bootstrap/vendor/jquery.js to v1.11.0
  
 Bootstrap 1.0.0-beta-1
 ====================================
