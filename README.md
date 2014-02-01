@@ -1,7 +1,8 @@
 MODx-Bootstrap
 ==============
 
-[Extra][1] for [CMS MODx Revolution (Revo)][2] for starting with [Twitter Bootstrap][3] - open source front-end framework.
+[Extra][1] for [MODX Revo][2] for starting with [Twitter Bootstrap][3] - open source front-end framework. [This extra][1] is especially useful for [MODX Revo][2] beginners and/or for the blank [MODX Revo][2] installation with [Twitter Bootstrap][3] framework in the future.
+
 You'll find the [Transport Package][4] of this extra on [this page][1] or just install it via [Package Management][5].
 
 [1]: http://modx.com/extras/package/bootstrap
