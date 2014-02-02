@@ -1,4 +1,8 @@
-Changelog file for Bootstrap component.
+Changelog file for Bootstrap.
+
+Bootstrap 1.0.2-beta-1
+====================================
+- Update readme
 
 Bootstrap 1.0.1-beta-1
 ====================================
