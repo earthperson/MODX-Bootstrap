@@ -19,7 +19,7 @@ $sources = array(
 	'root' => $root,
 	'build' => $root . '_build/',
 	'source_core' => $root . 'core/components/' . PKG_NAME_LOWER,
-	'source_assets' => $root . 'assets/components' . PKG_NAME_LOWER,
+	'source_assets' => $root . 'assets/components/' . PKG_NAME_LOWER,
 	'data' => $root . '_build/data/',
 	'elements' => $root . 'core/components/' . PKG_NAME_LOWER . '/elements/',
 	'docs' => $root . 'core/components/' . PKG_NAME_LOWER . '/docs/'
@@ -82,6 +82,14 @@ $vehicle = $builder->createVehicle($category, array(
 		xPDOTransport::PRESERVE_KEYS => false,
 	),
 )));
+$vehicle->resolve('file',array(
+	'source' => $sources['source_core'],
+	'target' => "return MODX_CORE_PATH . 'components/';",
+));
+$vehicle->resolve('file',array(
+	'source' => $sources['source_assets'],
+	'target' => "return MODX_ASSETS_PATH . 'components/';",
+));
 $builder->putVehicle($vehicle);
 unset($category, $vehicle);
 

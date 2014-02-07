@@ -7,17 +7,17 @@ $snippets = array(
 	array(
 		'id' => 1,
 		'name' => 'Years',
-		'snippet' => file_get_contents($sources['elements'] . 'snippets/years.php'),
+		'snippet' => file_get_contents($sources['elements'] . 'snippets/Years.php'),
 	),
 	array(
 		'id' => 2,
 		'name' => 'RenderBreadcrumbs',
-		'snippet' => file_get_contents($sources['elements'] . 'snippets/renderbreadcrumbs.php'),
+		'snippet' => file_get_contents($sources['elements'] . 'snippets/RenderBreadcrumbs.php'),
 	),
 	array(
 		'id' => 3,
 		'name' => 'RenderSidebar',
-		'snippet' => file_get_contents($sources['elements'] . 'snippets/rendersidebar.php'),
+		'snippet' => file_get_contents($sources['elements'] . 'snippets/RenderSidebar.php'),
 	),
 );
 
