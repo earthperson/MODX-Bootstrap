@@ -10,14 +10,14 @@ if ($transport && $transport->xpdo) {
 		case xPDOTransport::ACTION_INSTALL:
 		case xPDOTransport::ACTION_UPGRADE:
 			$modx =& $transport->xpdo;
-
-			/* define wayfinder version */
+			
+			/* define If version */
 			$newVersion = '1.1.1-pl';
 			$newVersionMajor = '1';
 			$name = 'if';
-
+			
 			/* now loop through packages and check for newer versions
-			 * Do not install if newer or equal versions are found */
+			   Do not install if newer or equal versions are found */
 			$newer = true;
 			$modx->addPackage('modx.transport',$modx->getOption('core_path').'model/');
 			$c = $modx->newQuery('transport.modTransportPackage');
@@ -26,7 +26,7 @@ if ($transport && $transport->xpdo) {
 				'version_major:>=' => $newVersionMajor,
 			));
 			$packages = $modx->getCollection('transport.modTransportPackage',$c);
-
+			
 			foreach ($packages as $package) {
 				if ($package->compareVersion($newVersion)) {
 					$newer = false;
