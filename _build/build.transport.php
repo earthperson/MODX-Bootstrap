@@ -26,7 +26,7 @@ $sources = array(
 	'elements' => $root . 'core/components/' . PKG_NAME_LOWER . '/elements/',
 	'templates' => $root . 'assets/templates/' . PKG_NAME_LOWER,
 	'docs' => $root . 'core/components/' . PKG_NAME_LOWER . '/docs/',
-	'lexicon' => $root . 'core/components/'. PKG_NAME_LOWER .'/lexicon/',
+	'lexicon' => $root . 'core/components/'. PKG_NAME_LOWER . '/lexicon/',
 	'subpackages' => $root . '_build/subpackages/',
 );
 unset($root);

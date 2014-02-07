@@ -82,7 +82,7 @@ foreach ($chunks as &$chunk) {
 	$c = $modx->newObject('modChunk');
 	$c->fromArray($chunk,'',true,true);
 	$chunk = $c;
-	unset($s);
+	unset($c);
 }
 
 return $chunks;
