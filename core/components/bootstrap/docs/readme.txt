@@ -1,9 +1,11 @@
 === Bootstrap ===
-Extra Version: 1.0.3-beta-1
+Extra Version: 1.0.3-pl
 Requires at least: Revolution 2.2.x
 Contributor: earthperson (Dmitry Ponomarev) <ponomarev.dev@gmail.com>
+Donate link: 
 Contributor Website: http://earthperson.info
 Extra Website: http://modx.com/extras/package/bootstrap
+Extra GitHub page: https://github.com/earthperson/MODX-Bootstrap
 Tags: bootstrap, twitter bootstrap, template, style
 License: The MIT License (MIT)
 License URI: http://opensource.org/licenses/MIT

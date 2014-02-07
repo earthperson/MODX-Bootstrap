@@ -12,7 +12,7 @@ set_time_limit(0);
 define('PKG_NAME', 'Bootstrap');
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
 define('PKG_VERSION', '1.0.3');
-define('PKG_RELEASE', 'beta1');
+define('PKG_RELEASE', 'pl');
 
 $root = dirname(__DIR__) . '/';
 $sources = array(
