@@ -11,7 +11,7 @@ set_time_limit(0);
 /* define package names */
 define('PKG_NAME', 'Bootstrap');
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
-define('PKG_VERSION', '1.0.2');
+define('PKG_VERSION', '1.0.3');
 define('PKG_RELEASE', 'beta1');
 
 $root = dirname(__DIR__) . '/';
@@ -47,7 +47,7 @@ $modx->setLogTarget(XPDO_CLI_MODE ? 'ECHO' : 'HTML');
 $modx->loadClass('transport.modPackageBuilder', '', false, true);
 $builder = new modPackageBuilder($modx);
 $builder->createPackage(PKG_NAME, PKG_VERSION, PKG_RELEASE);
-$builder->registerNamespace(PKG_NAME_LOWER,false,true,'{core_path}components/' . PKG_NAME_LOWER . '/');
+$builder->registerNamespace(PKG_NAME_LOWER,false,true,'{core_path}components/' . PKG_NAME_LOWER . '/','{assets_path}components/' . PKG_NAME_LOWER . '/');
 
 /* create category */
 $modx->log(modX::LOG_LEVEL_INFO,'Creating category...');

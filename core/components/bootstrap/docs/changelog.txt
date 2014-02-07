@@ -1,8 +1,15 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.3-beta-1
+====================================
+- Added lexicons
+- Updated readme
+- Fixed setting bootstrap.dropdown_disabled
+- Zip up transport package via the Build script instead of the extra PackMan
+
 Bootstrap 1.0.2-beta-1
 ====================================
-- Update readme
+- Updated readme
 
 Bootstrap 1.0.1-beta-1
 ====================================

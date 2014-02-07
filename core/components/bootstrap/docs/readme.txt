@@ -1,5 +1,5 @@
 === Bootstrap ===
-Extra Version: 1.0.2-beta-1
+Extra Version: 1.0.3-beta-1
 Requires at least: Revolution 2.2.x
 Contributor: earthperson (Dmitry Ponomarev) <ponomarev.dev@gmail.com>
 Contributor Website: http://earthperson.info
@@ -14,7 +14,7 @@ Extra for starting with Twitter Bootstrap - open source front-end framework. Thi
 
 Dependencies (will be installed automatically): BreadCrumb, If, Wayfinder.
 
-You can go to the System Settings and set setting bootstrap.dropdown_disabled to 0 or 1. If equal to 1 then the upper menu item that has child pages will be possible to click and go to the corresponding page. For more information about see this Stack Overflow page: http://stackoverflow.com/questions/8878033/how-to-make-twitter-bootstrap-menu-dropdown-on-hover-rather-than-click
+You can go to the System Settings and set setting bootstrap.dropdown_disabled to 0 or 1. If equal to 1 then the upper menu item that has child pages will be possible to click and go to the corresponding page.
 
 == Installation ==
 
