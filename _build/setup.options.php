@@ -5,6 +5,7 @@
  * @package Bootstrap
  * @subpackage build
  */
+$output = '';
 /* set some default values */
 
 /* get values based on mode */

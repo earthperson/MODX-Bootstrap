@@ -18,6 +18,8 @@ $root = dirname(__DIR__) . '/';
 $sources = array(
 	'root' => $root,
 	'build' => $root . '_build/',
+	'resolvers' => $root . '_build/resolvers/',
+	'validators' => $root . '_build/validators/',
 	'source_core' => $root . 'core/components/' . PKG_NAME_LOWER,
 	'source_assets' => $root . 'assets/components/' . PKG_NAME_LOWER,
 	'data' => $root . '_build/data/',
@@ -25,6 +27,7 @@ $sources = array(
 	'templates' => $root . 'assets/templates/' . PKG_NAME_LOWER,
 	'docs' => $root . 'core/components/' . PKG_NAME_LOWER . '/docs/',
 	'lexicon' => $root . 'core/components/'. PKG_NAME_LOWER .'/lexicon/',
+	'subpackages' => $root . '_build/subpackages/',
 );
 unset($root);
 
@@ -73,6 +76,11 @@ if (!is_array($snippets)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in
 $category->addMany($snippets);
 unset($snippets);
 
+/* add subpackages */
+$success = include $sources['data'].'transport.subpackages.php';
+$success ? $modx->log(modX::LOG_LEVEL_INFO,'Added in subpackages.') : $modx->log(modX::LOG_LEVEL_FATAL,'Adding subpackages failed.');
+unset($success);
+
 $modx->log(modX::LOG_LEVEL_INFO,'Packaging in category...');
 $vehicle = $builder->createVehicle($category, array(
 	xPDOTransport::UNIQUE_KEY => 'category',
@@ -80,22 +88,23 @@ $vehicle = $builder->createVehicle($category, array(
 	xPDOTransport::PRESERVE_KEYS => false,
 	xPDOTransport::RELATED_OBJECTS => true,
 	xPDOTransport::RELATED_OBJECT_ATTRIBUTES => array (
-	'Snippets' => array(
-		xPDOTransport::UNIQUE_KEY => 'name',
-		xPDOTransport::UPDATE_OBJECT => true,
-		xPDOTransport::PRESERVE_KEYS => false,
-	),
-	'Chunks' => array (
-		xPDOTransport::UNIQUE_KEY => 'name',
-		xPDOTransport::UPDATE_OBJECT => true,
-		xPDOTransport::PRESERVE_KEYS => false,
-	),
-	'Templates' => array(
-		xPDOTransport::UNIQUE_KEY => 'templatename',
-		xPDOTransport::UPDATE_OBJECT => true,
-		xPDOTransport::PRESERVE_KEYS => false,
-	),
-)));
+		'Templates' => array(
+			xPDOTransport::UNIQUE_KEY => 'templatename',
+			xPDOTransport::UPDATE_OBJECT => true,
+			xPDOTransport::PRESERVE_KEYS => false,
+		),
+		'Chunks' => array (
+			xPDOTransport::UNIQUE_KEY => 'name',
+			xPDOTransport::UPDATE_OBJECT => true,
+			xPDOTransport::PRESERVE_KEYS => false,
+		),
+		'Snippets' => array(
+			xPDOTransport::UNIQUE_KEY => 'name',
+			xPDOTransport::UPDATE_OBJECT => true,
+			xPDOTransport::PRESERVE_KEYS => false,
+		),
+	)
+));
 $vehicle->resolve('file',array(
 	'source' => $sources['source_core'],
 	'target' => "return MODX_CORE_PATH . 'components/';",
