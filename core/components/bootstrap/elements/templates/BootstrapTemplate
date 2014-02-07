@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		[[$Head]]
+	</head>
+	<body>
+	    <div id="wrap">
+		  [[$Navbar]]
+		  <div class="container">
+		      [[If?
+			      &subject=`[[RenderBreadcrumbs]]`
+				  &operand=`1`
+				  &then=`[[$Breadcrumb]]`
+			  ]]
+			  [[If?
+			      &subject=`[[*longtitle]]`
+				  &operator=`!empty`
+				  &then=`<div class="page-header">
+				           <h1>[[*longtitle]]</h1>
+			             </div>`
+			  ]]
+			    [[!If?
+				   &subject=`[[RenderSidebar]]`
+				   &operator=`!empty`
+				   &then=`<div class="row">
+ 				            <div class="col-md-2 sidebar-offcanvas" id="sidebar" role="navigation">
+							    [[$Sidebar]]
+						    </div>
+							<div class="col-md-10">
+							    [[*content]]
+							</div>
+						  </div>`
+				   &else=`[[*content]]`
+				]]
+		  </div>
+		</div>
+		[[$Footer]]
+	</body>
+</html>

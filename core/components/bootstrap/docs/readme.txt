@@ -14,7 +14,7 @@ Extra for starting with Twitter Bootstrap - open source front-end framework. Thi
 
 Dependencies (will be installed automatically): BreadCrumb, If, Wayfinder.
 
-You can go to the System Settings and set (maybe create one before) setting bootstrap.dropdown_disabled to 0 or 1. If equal to 1 then the upper menu item that has child pages will be possible to press.
+You can go to the System Settings and set setting bootstrap.dropdown_disabled to 0 or 1. If equal to 1 then the upper menu item that has child pages will be possible to click and go to the corresponding page. For more information about see this Stack Overflow page: http://stackoverflow.com/questions/8878033/how-to-make-twitter-bootstrap-menu-dropdown-on-hover-rather-than-click
 
 == Installation ==
 

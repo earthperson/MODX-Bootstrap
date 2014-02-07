@@ -22,7 +22,9 @@ $sources = array(
 	'source_assets' => $root . 'assets/components/' . PKG_NAME_LOWER,
 	'data' => $root . '_build/data/',
 	'elements' => $root . 'core/components/' . PKG_NAME_LOWER . '/elements/',
-	'docs' => $root . 'core/components/' . PKG_NAME_LOWER . '/docs/'
+	'templates' => $root . 'assets/templates/' . PKG_NAME_LOWER,
+	'docs' => $root . 'core/components/' . PKG_NAME_LOWER . '/docs/',
+	'lexicon' => $root . 'core/components/'. PKG_NAME_LOWER .'/lexicon/',
 );
 unset($root);
 
@@ -50,12 +52,12 @@ $category= $modx->newObject('modCategory');
 $category->set('id', 0);
 $category->set('category','Bootstrap');
 
-/* add snippets */
-$modx->log(modX::LOG_LEVEL_INFO,'Packaging in snippets...');
-$snippets = include $sources['data'].'transport.snippets.php';
-if (!is_array($snippets)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in snippets.');
-$category->addMany($snippets);
-unset($snippets);
+/* add templates */
+$modx->log(modX::LOG_LEVEL_INFO,'Packaging in templates...');
+$templates = include $sources['data'].'transport.templates.php';
+if (!is_array($templates)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in templates.');
+$category->addMany($templates);
+unset($templates);
 
 /* add chunks */
 $modx->log(modX::LOG_LEVEL_INFO,'Packaging in chunks...');
@@ -63,6 +65,13 @@ $chunks = include $sources['data'].'transport.chunks.php';
 if (!is_array($chunks)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in chunks.');
 $category->addMany($chunks);
 unset($chunks);
+
+/* add snippets */
+$modx->log(modX::LOG_LEVEL_INFO,'Packaging in snippets...');
+$snippets = include $sources['data'].'transport.snippets.php';
+if (!is_array($snippets)) $modx->log(modX::LOG_LEVEL_ERROR,'Could not package in snippets.');
+$category->addMany($snippets);
+unset($snippets);
 
 $modx->log(modX::LOG_LEVEL_INFO,'Packaging in category...');
 $vehicle = $builder->createVehicle($category, array(
@@ -81,6 +90,11 @@ $vehicle = $builder->createVehicle($category, array(
 		xPDOTransport::UPDATE_OBJECT => true,
 		xPDOTransport::PRESERVE_KEYS => false,
 	),
+	'Templates' => array(
+		xPDOTransport::UNIQUE_KEY => 'templatename',
+		xPDOTransport::UPDATE_OBJECT => true,
+		xPDOTransport::PRESERVE_KEYS => false,
+	),
 )));
 $vehicle->resolve('file',array(
 	'source' => $sources['source_core'],
@@ -89,6 +103,10 @@ $vehicle->resolve('file',array(
 $vehicle->resolve('file',array(
 	'source' => $sources['source_assets'],
 	'target' => "return MODX_ASSETS_PATH . 'components/';",
+));
+$vehicle->resolve('file',array(
+	'source' => $sources['templates'],
+	'target' => "return MODX_ASSETS_PATH . 'templates/';",
 ));
 $builder->putVehicle($vehicle);
 unset($category, $vehicle);
@@ -124,8 +142,8 @@ $builder->setPackageAttributes(array(
 ));
 
 /* zip up package */
-$modx->log(modX::LOG_LEVEL_INFO,'Packing up transport package zip...');
+$modx->log(modX::LOG_LEVEL_INFO,'Beginning to zip up transport package..');
 $builder->pack();
-$modx->log(modX::LOG_LEVEL_INFO, 'Package built.');
+$modx->log(modX::LOG_LEVEL_INFO, 'Transport zip created. Build script finished.');
 $modx->log(modX::LOG_LEVEL_INFO, 'Execution time: ' . sprintf("%2.4f s", microtime(true) - $tstart) . '.');
 exit;
