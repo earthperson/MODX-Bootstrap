@@ -1,0 +1,7 @@
+<li class="[[+wf.classnames]] dropdown">
+	<a href="[[If? &subject=`[[++dropdown_disabled]]` &operand=`1` &then=`[[+wf.link]]` &else=`#`]]" title="[[+wf.title]]" class="dropdown-toggle [[If? &subject=`[[++dropdown_disabled]]` &operand=`1` &then=`disabled`]]" data-toggle="dropdown" [[+wf.attributes]]>
+		[[+wf.linktext]] 
+		<b class="caret"></b>
+	</a>
+	[[+wf.wrapper]]
+</li>

@@ -1,0 +1,9 @@
+<div class="well sidebar-nav">
+	  [[Wayfinder?
+		&startId=`[[*id]]`
+		&level=`2`
+		&outerTpl=`Wayfinder.Sidebar.outerTpl`
+		&innerTpl=`Wayfinder.Sidebar.innerTpl`
+		&innerRowTpl=`Wayfinder.Sidebar.innerRowTpl`
+	  ]]
+</div><!--/.well -->
