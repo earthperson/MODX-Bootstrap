@@ -1,5 +1,9 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.4-pl
+====================================
+- Fixed bootstrap dist contents
+
 Bootstrap 1.0.3-pl
 ====================================
 - Updated readme
