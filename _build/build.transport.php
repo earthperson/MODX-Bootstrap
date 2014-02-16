@@ -151,7 +151,7 @@ $builder->setPackageAttributes(array(
 ));
 
 /* zip up package */
-$modx->log(modX::LOG_LEVEL_INFO,'Beginning to zip up transport package..');
+$modx->log(modX::LOG_LEVEL_INFO,'Beginning to zip up transport package...');
 $builder->pack();
 $modx->log(modX::LOG_LEVEL_INFO, 'Transport zip created. Build script finished.');
 $modx->log(modX::LOG_LEVEL_INFO, 'Execution time: ' . sprintf("%2.4f s", microtime(true) - $tstart) . '.');
