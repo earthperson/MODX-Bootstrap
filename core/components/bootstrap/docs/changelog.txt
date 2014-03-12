@@ -1,5 +1,10 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.6-pl
+====================================
+- Skip update templates and chunks during extra update or reinstall
+- Setting bootstrap.dropdown_disabled equal to 1 by default
+
 Bootstrap 1.0.5-pl
 ====================================
 - Updated bootstrap/dist to v3.1.1

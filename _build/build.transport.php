@@ -11,7 +11,7 @@ set_time_limit(0);
 /* define package names */
 define('PKG_NAME', 'Bootstrap');
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
-define('PKG_VERSION', '1.0.5');
+define('PKG_VERSION', '1.0.6');
 define('PKG_RELEASE', 'pl');
 
 $root = dirname(__DIR__) . '/';
@@ -90,12 +90,12 @@ $vehicle = $builder->createVehicle($category, array(
 	xPDOTransport::RELATED_OBJECT_ATTRIBUTES => array (
 		'Templates' => array(
 			xPDOTransport::UNIQUE_KEY => 'templatename',
-			xPDOTransport::UPDATE_OBJECT => true,
+			xPDOTransport::UPDATE_OBJECT => false,
 			xPDOTransport::PRESERVE_KEYS => false,
 		),
 		'Chunks' => array (
 			xPDOTransport::UNIQUE_KEY => 'name',
-			xPDOTransport::UPDATE_OBJECT => true,
+			xPDOTransport::UPDATE_OBJECT => false,
 			xPDOTransport::PRESERVE_KEYS => false,
 		),
 		'Snippets' => array(
