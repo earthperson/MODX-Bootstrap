@@ -6,9 +6,9 @@
 	<body>
 		[[$Navbar]]
 		<div class="container">
-		[[If?
+		[[!If?
 			&subject=`[[RenderBreadcrumbs]]`
-			&operand=`1`
+			&operator=`!empty`
 			&then=`[[$Breadcrumb]]`
 		]]
 		[[If?
