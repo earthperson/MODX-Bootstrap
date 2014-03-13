@@ -1,5 +1,11 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.7-pl
+====================================
+- This update is actual for new installation only, because templates and chunks are not overridden during extra update or reinstall
+- Added lang="[[++cultureKey]]" instead of lang="en" in the BootstrapTemplate
+- Updated BootstrapTemplate, chunk Head and style.css for new "Sticky footer" implementation
+
 Bootstrap 1.0.6-pl
 ====================================
 - Skip update templates and chunks during extra update or reinstall
