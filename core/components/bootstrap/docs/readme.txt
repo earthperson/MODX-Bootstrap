@@ -2,7 +2,7 @@
 Extra Version: 1.0.7-pl
 Requires at least: Revolution 2.2.x
 Contributor: earthperson (Dmitry Ponomarev) <ponomarev.dev@gmail.com>
-Donate link: 
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RTRX3BMMVP3L8
 Contributor Website: http://earthperson.info
 Extra Website: http://modx.com/extras/package/bootstrap
 Extra GitHub page: https://github.com/earthperson/MODX-Bootstrap
