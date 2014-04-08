@@ -1,5 +1,11 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.8-pl
+====================================
+- Minor BootstrapTemplate cleanup
+- Added URL of this extra at the bottom right of the chunk Footer
+- Added donate link in the readme.txt
+
 Bootstrap 1.0.7-pl
 ====================================
 - This update is actual for new installation only, because templates and chunks are not overridden during extra update or reinstall
