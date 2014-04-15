@@ -20,6 +20,6 @@ MODX-Bootstrap changelog file is [here][6].
 [9]: http://youtu.be/_ti8B-tohbc
 [10]: http://earthperson.github.io/MODX-Bootstrap/#screenshots
 
-## Building
-![Building][11]
+## Build
+![Build][11]
 [11]: http://earthperson.github.io/MODX-Bootstrap/images/build.png
