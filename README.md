@@ -1,13 +1,13 @@
 MODX-Bootstrap
 ==============
 
-[Extra][1] for [MODX Revo][2] for starting with [Twitter Bootstrap][3] - open source front-end framework. [This extra][1] is especially useful for [MODX Revo][2] beginners and/or for the blank [MODX Revo][2] installation with [Twitter Bootstrap][3] framework in the future.
+[Extra][1] for [MODX Revo][2] for starting with [Twitter Bootstrap][3] - open source front-end framework. This extra is especially useful for [MODX Revo][2] beginners and/or for the blank [MODX Revo][2] installation with [Twitter Bootstrap][3] framework in the future.
 
 You'll find the [Transport Package][4] of this extra on [this page][1] or just install it via [Package Management][5].
 
-Extra changelog file is [here][6].
+On the [MODX-Bootstrap site][7] you'll find the [Screencast][8] and [Screenshots][10]. There are screencast on the [youtube][9] also.
 
-Screencast: [on the youtube][8], [on the extra website][7].
+MODX-Bootstrap changelog file is [here][6].
 
 [1]: http://modx.com/extras/package/bootstrap
 [2]: http://modx.com/software/open-source-cms/modx-revolution/
@@ -16,4 +16,10 @@ Screencast: [on the youtube][8], [on the extra website][7].
 [5]: http://rtfm.modx.com/revolution/2.x/developing-in-modx/advanced-development/package-management
 [6]: https://github.com/earthperson/MODX-Bootstrap/blob/develop/core/components/bootstrap/docs/changelog.txt
 [7]: http://earthperson.github.io/MODX-Bootstrap/
-[8]: http://youtu.be/_ti8B-tohbc
+[8]: http://earthperson.github.io/MODX-Bootstrap/#screencast
+[9]: http://youtu.be/_ti8B-tohbc
+[10]: http://earthperson.github.io/MODX-Bootstrap/#screenshots
+
+## Building
+![Building][11]
+[11]: http://earthperson.github.io/MODX-Bootstrap/images/build.png
