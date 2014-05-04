@@ -2,7 +2,7 @@ Changelog file for Bootstrap.
 
 ~Bootstrap 1.0.9-pl
 ====================================
-- Updated bootstrap/vendor/jquery.js to v1.11.1
+- Updated bootstrap/vendor/js/jquery.js to v1.11.1
 
 Bootstrap 1.0.8-pl
 ====================================
