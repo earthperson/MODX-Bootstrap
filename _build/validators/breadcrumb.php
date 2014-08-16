@@ -12,7 +12,7 @@ if ($transport && $transport->xpdo) {
 			$modx =& $transport->xpdo;
 			
 			/* define BreadCrumb version */
-			$newVersion = '1.3.2-beta1';
+			$newVersion = '1.4.2-pl';
 			$newVersionMajor = '1';
 			$name = 'breadcrumb';
 			

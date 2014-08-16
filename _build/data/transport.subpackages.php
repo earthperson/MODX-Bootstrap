@@ -5,7 +5,7 @@
  * @package Bootstrap
  */
 $subpackages = array(
-	'breadcrumb' => 'breadcrumb-1.3.2-beta1',
+	'breadcrumb' => 'breadcrumb-1.4.2-pl',
 	'if' => 'if-1.1.1-pl',
 	'wayfinder' => 'wayfinder-2.3.3-pl',
 );
