@@ -1,5 +1,9 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.12-pl
+====================================
+- Removed donate link in the readme.txt
+
 Bootstrap 1.0.11-pl
 ====================================
 - Updated dependency BreadCrumb in the _build/subpackages to 1.4.2-pl
