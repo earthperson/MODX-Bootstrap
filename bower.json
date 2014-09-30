@@ -1,0 +1,24 @@
+{
+  "name": "MODX-Bootstrap",
+  "version": "1.0.12-pl",
+  "homepage": "https://github.com/earthperson/MODX-Bootstrap",
+  "authors": [
+    "earthperson <ponomarev.dev@gmail.com>"
+  ],
+  "description": "Extra for MODX Revo for starting with Twitter Bootstrap - open source front-end framework",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "html5shiv": "~3.7.*",
+    "respond": "~1.4.*"
+  },
+  "private": true
+}
