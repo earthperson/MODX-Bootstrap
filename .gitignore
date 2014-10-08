@@ -1,2 +1,5 @@
 _build/build.config.php
 bower_components
+/vendor
+composer.phar
+composer.lock
