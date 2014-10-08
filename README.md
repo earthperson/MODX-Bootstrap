@@ -1,6 +1,6 @@
 MODX-Bootstrap
 ==============
-[![Latest Stable Version](https://poser.pugx.org/earthperson/modx-bootstrap/v/stable.svg)](https://packagist.org/packages/earthperson/modx-bootstrap) [![Total Downloads](https://poser.pugx.org/earthperson/modx-bootstrap/downloads.svg)](https://packagist.org/packages/earthperson/modx-bootstrap) [![Latest Unstable Version](https://poser.pugx.org/earthperson/modx-bootstrap/v/unstable.svg)](https://packagist.org/packages/earthperson/modx-bootstrap) [![License](https://poser.pugx.org/earthperson/modx-bootstrap/license.svg)](https://packagist.org/packages/earthperson/modx-bootstrap)
+[![Latest Stable Version](https://poser.pugx.org/earthperson/modx-bootstrap/v/stable.svg)](https://packagist.org/packages/earthperson/modx-bootstrap) [![Latest Unstable Version](https://poser.pugx.org/earthperson/modx-bootstrap/v/unstable.svg)](https://packagist.org/packages/earthperson/modx-bootstrap) [![License](https://poser.pugx.org/earthperson/modx-bootstrap/license.svg)](https://packagist.org/packages/earthperson/modx-bootstrap)
 
 Extra for [MODX Revo][2] for starting with [Twitter Bootstrap][3] - open source front-end framework. This extra is especially useful for MODX Revo beginners and/or for the blank MODX Revo installation with Twitter Bootstrap framework in the future.
 
