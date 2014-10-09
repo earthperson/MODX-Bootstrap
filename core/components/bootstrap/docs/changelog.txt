@@ -1,5 +1,9 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.13-pl
+====================================
+- GitHub, source code related minor refactoring
+
 Bootstrap 1.0.12-pl
 ====================================
 - Removed donate link in the readme.txt
