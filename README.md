@@ -8,7 +8,12 @@ You'll find the [Transport Package][4] of this extra on [this page][1] or just i
 
 On the [MODX-Bootstrap site][7] you'll find the [Screencast][8] and [Screenshots][10]. There are screencast on the [youtube][9] also.
 
-MODX-Bootstrap changelog file is [here][6].
+### Latest Changes
+
+For details read the [complete changelog][6].
+
+### Build
+![Build][11]
 
 [1]: http://modx.com/extras/package/bootstrap
 [2]: http://modx.com/get-modx/
@@ -20,7 +25,4 @@ MODX-Bootstrap changelog file is [here][6].
 [8]: http://earthperson.github.io/MODX-Bootstrap/#screencast
 [9]: http://youtu.be/_ti8B-tohbc
 [10]: http://earthperson.github.io/MODX-Bootstrap/#screenshots
-
-## Build
-![Build][11]
 [11]: http://earthperson.github.io/MODX-Bootstrap/images/build.png
