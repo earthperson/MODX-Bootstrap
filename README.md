@@ -13,6 +13,9 @@ On the [MODX-Bootstrap site][7] you'll find the [Screencast][8] and [Screenshots
 For details read the [complete changelog][6].
 
 ### Build
+```Shell
+php build.transport.php 
+```
 ![Build][11]
 
 ### Composer
@@ -25,6 +28,7 @@ cd MODX-Bootstrap/_build/;\
 sed "3s|/.*/|$MODX_CORE_PATH|" build.config.sample.php > build.config.php;\
 php build.transport.php
 ```
+![Build2][12]
 
 [1]: http://modx.com/extras/package/bootstrap
 [2]: http://modx.com/get-modx/
@@ -37,3 +41,4 @@ php build.transport.php
 [9]: http://youtu.be/_ti8B-tohbc
 [10]: http://earthperson.github.io/MODX-Bootstrap/#screenshots
 [11]: http://earthperson.github.io/MODX-Bootstrap/images/build.png
+[12]: http://earthperson.github.io/MODX-Bootstrap/images/build2.png
