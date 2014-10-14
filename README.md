@@ -18,7 +18,7 @@ php build.transport.php
 ```
 ![Build][11]
 
-### Composer
+### Via Composer
 
 MODX-Bootstrap is available on [Packagist](https://packagist.org/packages/earthperson/modx-bootstrap). It can be installed by running:
 ```Shell
