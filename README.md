@@ -19,7 +19,11 @@ For details read the [complete changelog][6].
 
 MODX-Bootstrap is available on [Packagist](https://packagist.org/packages/earthperson/modx-bootstrap). It can be installed by running:
         
-        $ composer create-project earthperson/modx-bootstrap your-project-name --prefer-dist
+        $ MODX_CORE_PATH='/path/to/modx/core/';\
+        composer create-project earthperson/modx-bootstrap MODX-Bootstrap --prefer-dist;\
+        cd MODX-Bootstrap/_build/;\
+        sed "3s|/.*/|$MODX_CORE_PATH|" build.config.sample.php > build.config.php;\
+        php build.transport.php
 
 [1]: http://modx.com/extras/package/bootstrap
 [2]: http://modx.com/get-modx/
