@@ -15,6 +15,12 @@ For details read the [complete changelog][6].
 ### Build
 ![Build][11]
 
+### Composer
+
+MODX-Bootstrap is available on [Packagist](https://packagist.org/packages/earthperson/modx-bootstrap). It can be installed by running:
+        
+        $ composer create-project earthperson/modx-bootstrap your-project-name --prefer-dist
+
 [1]: http://modx.com/extras/package/bootstrap
 [2]: http://modx.com/get-modx/
 [3]: http://getbootstrap.com/
