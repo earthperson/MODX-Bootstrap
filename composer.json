@@ -2,7 +2,7 @@
 	"name": "earthperson/modx-bootstrap",
 	"description": "Extra for MODX Revo for starting with Twitter Bootstrap - open source front-end framework",
 	"keywords": ["modx", "bootstrap"],
+	"homepage": "https://github.com/earthperson/MODX-Bootstrap",
 	"license": "MIT",
-	"type": "project",
-	"minimum-stability": "stable"
+	"type": "project"
 }
