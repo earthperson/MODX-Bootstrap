@@ -16,7 +16,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 </style>`]]
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="[[++assets_url]]components/bootstrap/vendor/js/jquery.js"></script>
+<script src="[[++assets_url]]components/bootstrap/vendor/js/jquery.modern.js"></script>
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="[[++assets_url]]components/bootstrap/vendor/js/html5shiv.js"></script>

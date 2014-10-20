@@ -16,6 +16,9 @@ For details read the [complete changelog][6].
 ```Shell
 php build.transport.php 
 ```
+
+You'll find your package in the `core/packages` directory of your `MODX_BASE_PATH`.
+
 ![Build][11]
 
 ### Via Composer

@@ -11,7 +11,7 @@ set_time_limit(0);
 /* define package names */
 define('PKG_NAME', 'Bootstrap');
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
-define('PKG_VERSION', '1.0.13');
+define('PKG_VERSION', '1.0.14');
 define('PKG_RELEASE', 'pl');
 
 $root = dirname(__DIR__) . '/';
@@ -117,6 +117,10 @@ $vehicle->resolve('file',array(
 	'source' => $sources['templates'],
 	'target' => "return MODX_ASSETS_PATH . 'templates/';",
 ));
+$vehicle->resolve('php',array(
+	'source' => $sources['resolvers'] . 'setupoptions.resolver.php',
+));
+$modx->log(modX::LOG_LEVEL_INFO,'Packaged in resolvers.'); flush();
 $builder->putVehicle($vehicle);
 unset($category, $vehicle);
 
