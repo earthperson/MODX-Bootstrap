@@ -2,7 +2,7 @@ Changelog file for Bootstrap.
 
 Bootstrap 1.0.14-pl
 ====================================
-- Added bootstrap/vendor/jquery.modern.js v2.1.1
+- Added bootstrap/vendor/js/jquery.modern.js v2.1.1
 - Added possibility to choose from modern jQuery 2.x and legacy jQuery 1.x during installation (not update or reinstall)
   via Package Management. It affects the chunk Head, and can be edited manually later.
 
