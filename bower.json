@@ -1,6 +1,6 @@
 {
   "name": "modx-bootstrap",
-  "version": "1.0.14-pl",
+  "version": "1.0.15-pl",
   "homepage": "https://github.com/earthperson/MODX-Bootstrap",
   "authors": [
     "earthperson <ponomarev.dev@gmail.com>"
@@ -15,7 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.2.0",
+    "bootstrap": "~3.3.0",
     "jquery": "~1.11",
     "jquery-modern": "jquery#2",
     "html5shiv": "~3.7.*",
