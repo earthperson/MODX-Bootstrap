@@ -11,7 +11,7 @@ set_time_limit(0);
 /* define package names */
 define('PKG_NAME', 'Bootstrap');
 define('PKG_NAME_LOWER', strtolower(PKG_NAME));
-define('PKG_VERSION', '1.0.15');
+define('PKG_VERSION', '1.0.16');
 define('PKG_RELEASE', 'pl');
 
 $root = dirname(__DIR__) . '/';

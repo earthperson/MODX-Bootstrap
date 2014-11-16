@@ -1,7 +1,7 @@
 <div id="footer">
 	<div class="container">
 		<p class="text-muted">&copy; [[++site_name]] [[Years]]
-			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.15-pl</small></a>
+			<a href="http://modx.com/extras/package/bootstrap" target="_blank" class="pull-right"><small>Bootstrap 1.0.16-pl</small></a>
 		</p>
 	</div>
 </div>
