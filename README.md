@@ -21,7 +21,7 @@ You'll find your package in the `core/packages` directory of your `MODX_BASE_PAT
 
 ![Build][11]
 
-### Install Via Composer
+### Install via Composer
 
 MODX-Bootstrap is available on [Packagist](https://packagist.org/packages/earthperson/modx-bootstrap). It can be installed by running:
 ```Shell
