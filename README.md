@@ -8,11 +8,17 @@ You'll find the [Transport Package][4] of this extra on [this page][1] or just i
 
 On the [MODX-Bootstrap site][7] you'll find the [Screencast][8] and [Screenshots][10]. There are screencast on the [youtube][9] also.
 
-### Latest Changes
+## Contents
+
+* [Latest Changes](#latest-changes)
+* [Build](#build)
+* [Install via Composer](#install-via-composer)
+
+## Latest Changes
 
 For details read the [complete changelog][6].
 
-### Build
+## Build
 ```Shell
 php build.transport.php 
 ```
@@ -21,7 +27,7 @@ You'll find your package in the `core/packages` directory of your `MODX_BASE_PAT
 
 ![Build][11]
 
-### Install via Composer
+## Install via Composer
 
 MODX-Bootstrap is available on [Packagist](https://packagist.org/packages/earthperson/modx-bootstrap). It can be installed by running:
 ```Shell
@@ -31,7 +37,7 @@ cd MODX-Bootstrap/_build/;\
 sed "3s|/.*/|$MODX_CORE_PATH|" build.config.sample.php > build.config.php;\
 php build.transport.php
 ```
-![Build2][12]
+![Install via Composer][12]
 
 [1]: http://modx.com/extras/package/bootstrap
 [2]: http://modx.com/get-modx/
