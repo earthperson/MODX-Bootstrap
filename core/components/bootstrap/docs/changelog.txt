@@ -1,5 +1,9 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.20-pl
+====================================
+- Updated bootstrap/dist to v3.3.4
+
 Bootstrap 1.0.19-pl
 ====================================
 - Updated dependency BreadCrumb in the _build/subpackages to 1.4.3-pl
