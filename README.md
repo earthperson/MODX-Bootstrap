@@ -2,7 +2,7 @@ MODX-Bootstrap
 ==============
 [![Latest Stable Version](https://poser.pugx.org/earthperson/modx-bootstrap/v/stable.svg)](https://packagist.org/packages/earthperson/modx-bootstrap) [![Latest Unstable Version](https://poser.pugx.org/earthperson/modx-bootstrap/v/unstable.svg)](https://packagist.org/packages/earthperson/modx-bootstrap) [![License](https://poser.pugx.org/earthperson/modx-bootstrap/license.svg)](https://packagist.org/packages/earthperson/modx-bootstrap)
 
-Extra for [MODX Revo][2] for starting with [Twitter Bootstrap][3] - open source front-end framework. This extra is especially useful for MODX Revo beginners and/or for the blank MODX Revo installation with Twitter Bootstrap framework in the future.
+Extra for starting with [Twitter Bootstrap][3] - open source front-end framework. This extra is especially useful for [MODX Revo][2] beginners and/or for the blank MODX Revo installation with Twitter Bootstrap framework in the future.
 
 You'll find the [Transport Package][4] of this extra on [this page][1] or just install it via [Package Management][5].
 
@@ -11,12 +11,18 @@ On the [MODX-Bootstrap site][7] you'll find the [Screencast][8] and [Screenshots
 ## Contents
 
 * [Latest Changes](#latest-changes)
+* [Requirements](#requirements)
 * [Build](#build)
 * [Install via Composer](#install-via-composer)
 
 ## Latest Changes
 
 For details read the [complete changelog][6].
+
+## Requirements
+
+* Requires Revolution 2.2.x or greater
+* Supports mysql
 
 ## Build
 ```Shell
