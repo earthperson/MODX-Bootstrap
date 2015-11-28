@@ -53,7 +53,7 @@ php build.transport.php
 [6]: https://github.com/earthperson/MODX-Bootstrap/blob/develop/core/components/bootstrap/docs/changelog.txt
 [7]: http://earthperson.github.io/MODX-Bootstrap/
 [8]: http://earthperson.github.io/MODX-Bootstrap/#screencast
-[9]: http://youtu.be/_ti8B-tohbc
+[9]: https://youtu.be/cczXkZNrKg0
 [10]: http://earthperson.github.io/MODX-Bootstrap/#screenshots
 [11]: http://earthperson.github.io/MODX-Bootstrap/images/build.png
 [12]: http://earthperson.github.io/MODX-Bootstrap/images/build2.png

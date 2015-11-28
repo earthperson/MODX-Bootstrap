@@ -13,8 +13,8 @@ $output = '<h2>jQuery version</h2>
 
 switch ($options[xPDOTransport::PACKAGE_ACTION]) {
     case xPDOTransport::ACTION_INSTALL:
-    	break;
     case xPDOTransport::ACTION_UPGRADE:
+    	break;
     case xPDOTransport::ACTION_UNINSTALL:
     	$output = '';
         break;
