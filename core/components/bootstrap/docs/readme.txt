@@ -1,5 +1,5 @@
 === Bootstrap ===
-Extra Version: 1.0.25-pl
+Extra Version: 1.0.26-pl
 Requires at least: Revolution 2.2.x
 Contributor: earthperson (Dmitry Ponomarev) <ponomarev.dev@gmail.com>
 Donate link: 
