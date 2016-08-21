@@ -1,5 +1,11 @@
 Changelog file for Bootstrap.
 
+Bootstrap 1.0.27-pl
+====================================
+- Updated bootstrap/vendor/js/jquery.js to v3.1.0
+- Updated bootstrap/dist to v3.3.7
+- Minor cleanup (removed old styles file)
+
 Bootstrap 1.0.26-pl
 ====================================
 - Updated bootstrap/vendor/js/jquery.js to v1.12.3

@@ -6,7 +6,7 @@
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <!-- Bootstrap -->
 <link href="[[++assets_url]]components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="[[++assets_url]]templates/bootstrap/css/style-ge-1.0.7.css" rel="stylesheet" media="screen">
+<link href="[[++assets_url]]templates/bootstrap/css/style.css" rel="stylesheet" media="screen">
 [[If? 
     &subject=`[[++bootstrap.dropdown_disabled]]`
 	&operand=`1`
@@ -16,7 +16,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 </style>`]]
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="[[++assets_url]]components/bootstrap/vendor/js/jquery.modern.js"></script>
+<script src="[[++assets_url]]components/bootstrap/vendor/js/jquery.js"></script>
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
 <script src="[[++assets_url]]components/bootstrap/vendor/js/html5shiv.js"></script>
